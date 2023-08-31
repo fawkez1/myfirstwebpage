@@ -15,12 +15,15 @@ h1 {
     color: goldenrod;
 }
 
-div {
-    background-color: violet;
+.top-section {
+    background-color: pink;
+}
     
+.bot-section {
+    background-color: green;
 }
 
-span {
-    color: yellow;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.intro {
+    background-color: blue;
+    font-size: large;
 }
