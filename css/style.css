@@ -14,3 +14,13 @@ h1 {
     font-size: 27px;
     color: goldenrod;
 }
+
+div {
+    background-color: violet;
+    
+}
+
+span {
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
