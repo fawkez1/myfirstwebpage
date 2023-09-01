@@ -11,10 +11,12 @@ h1 {
     color: #3747b3;
     font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
     margin-bottom: 0px;
+    text-align: center;
 }
 
 h2{
     margin-top: 0px;
+    text-align: center;
 }
 
 p {
@@ -27,4 +29,41 @@ p {
     font-size: 30px;
     font-style: italic;
     font-weight: normal;
+
+    text-align: center;
+
+    color: red;
+}
+
+.block3 {
+    text-decoration: underline;
+    text-transform: capitalize;  /*first letter of each word will be in capital letters*/
+    text-transform: uppercase;   /*everything in capital*/
+}
+
+
+
+
+
+/*working on links, changing their appearance*/
+
+/*!!the order of commands is important!!*/
+a {
+    color: firebrick;
+}
+
+a:link { /*general appearance of links*/
+    color: black;
+}
+
+a:visited { /*appearance of already visited links*/
+    color: pink;
+}
+
+a:hover { /*appearance whil hovering over the link*/
+    color: burlywood;
+}
+
+a:active { /*appearance WHILE clicking on the link. not that important. */
+    color: blue;
 }
