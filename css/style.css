@@ -1,5 +1,6 @@
 body {
 background-color: white;
+background-image: url(../images/pink-flowers.webp );
 color: black;
 font-size: 21px;
 }
@@ -24,6 +25,47 @@ h1 {
 }
 
 .intro {
-    background-color: blue;
-    font-size: large;
+    
+    font-size:larger;
+}
+
+
+
+
+/* CSS box model*/ 
+
+
+/* margin: empty space around my element*/
+.box {
+    background: coral;
+    width: 300px;
+    margin: 50px; /*100px every direction*/
+    margin-top: 50px; /*50px only top direction*/
+    
+    /*border creates a border around my element*/
+    border-width: 5px;    /*thats the frame*/
+    border-color: grey;  /*color obv */
+    border-style: solid;  
+    border-radius: 10px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+
+    /*padding is empty space WITH background around my element*/
+
+    /*       top right bottom left (clockwise)*/
+    padding: 15px 100px 15px 15px; 
+}
+.box1 {
+    background-image: url(../images/dackel-beschaeftigen.jpg);
+    padding: 300px;
+    margin: 100px;
+    width: 350px;
+    
+
+    font-family: sans-serif;
+    color: aliceblue;
+
+    background-size: cover; /*covers the whole div*/
+    background-position: center;
 }
