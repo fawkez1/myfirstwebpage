@@ -1,0 +1,30 @@
+body {
+    background-color: #a7dbe3);
+    color: #2f4c5c;
+    font-size: 21px;
+    /* fonts with more than one word, have to be put in quotations*/
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;    
+}
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;   /*by adding a value without px, 
+                        the line height changes equal to the font size
+                        so it´ts actually a good idea*/
+
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
