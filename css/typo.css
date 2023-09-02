@@ -67,3 +67,43 @@ a:hover { /*appearance whil hovering over the link*/
 a:active { /*appearance WHILE clicking on the link. not that important. */
     color: blue;
 }
+
+.keyboard {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.body-text {
+    background-color: #f5c4f2;
+    padding: 50px;
+}
+
+.body-text p {
+    color: white;
+}
+
+.body-text a {
+    color: #027e96;
+}
+
+.important-link {
+    color: blue;
+}
+
+.body-text a:hover {
+    color: #DDD;
+}
+
+/* specificity: by putting multiple classes in a row, the specificity gets higher
+               so it becomes more dominant and will be shown on the webpage */
+
+.body-text .important-link {
+    color: yellow;
+}
+
+/* there is another way to make a command dominant,
+   by writing "!important" behind it */
+
+.important-link {
+    color: greenyellow !important;   /*do not abuse*/
+}
