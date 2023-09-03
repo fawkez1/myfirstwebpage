@@ -1,0 +1,109 @@
+body {
+    background-color: #a7dbe3);
+    color: #2f4c5c;
+    font-size: 21px;
+    /* fonts with more than one word, have to be put in quotations*/
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;    
+}
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 0px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;   /*by adding a value without px, 
+                        the line height changes equal to the font size
+                        so it´ts actually a good idea*/
+
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+
+    text-align: center;
+
+    color: red;
+}
+
+.block3 {
+    text-decoration: underline;
+    text-transform: capitalize;  /*first letter of each word will be in capital letters*/
+    text-transform: uppercase;   /*everything in capital*/
+}
+
+
+
+
+
+/*working on links, changing their appearance*/
+
+/*!!the order of commands is important!!*/
+a {
+    color: firebrick;
+}
+
+a:link { /*general appearance of links*/
+    color: black;
+}
+
+a:visited { /*appearance of already visited links*/
+    color: pink;
+}
+
+a:hover { /*appearance whil hovering over the link*/
+    color: burlywood;
+}
+
+a:active { /*appearance WHILE clicking on the link. not that important. */
+    color: blue;
+}
+
+.keyboard {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.body-text {
+    background-color: #f5c4f2;
+    padding: 50px;
+}
+
+.body-text p {
+    color: white;
+}
+
+.body-text a {
+    color: #027e96;
+}
+
+.important-link {
+    color: blue;
+}
+
+.body-text a:hover {
+    color: #DDD;
+}
+
+/* specificity: by putting multiple classes in a row, the specificity gets higher
+               so it becomes more dominant and will be shown on the webpage */
+
+.body-text .important-link {
+    color: yellow;
+}
+
+/* there is another way to make a command dominant,
+   by writing "!important" behind it */
+
+.important-link {
+    color: greenyellow !important;   /*do not abuse*/
+}
