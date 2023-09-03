@@ -7,7 +7,6 @@ h1 {
     color: blue;
     font-family: font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     font-size: 50px;
-    font-po
 }
 
 h1, h2 {
@@ -15,39 +14,22 @@ h1, h2 {
     text-align: left;
 }
 
-p {
-    padding: 1px;
-    width: 700px;
-    text-align: left;
+.box {
+    width: 50px;
+    height: 50px;
+    float: left;
 }
 
-ol { /*ordered list*/
-    list-style: upper-roman;
-    padding: 50px;
-    background-color: lightskyblue;
-    width: 500px;
-    list-style-position: inside; /*brings all the items inside the box*/
+.box1 {
+    background-color: red;
 }
 
-ul { /*unordered list*/
-    list-style-image: url(../images/image-for-list);
-    padding: 50px;
-    background-color: lightskyblue;
-    width: 500px;
-    list-style-position: inside; /*brings all the items inside the box*/
+.box2 {
+    background-color: green;
 }
-
-ul li {  /*unordered-list listed-items*/
-    background: red;
-    margin-bottom: 15px;
-    width: 500px;
+.box2 {
+    background-color: pink;
 }
-
-ol li {  /*ordered-list listed-items*/
-    background-color: blue;
-    margin-bottom: 15px;
-    color: white;
-    width: 500px;
+.box3 {
+    background-color: blueviolet;
 }
-
-
